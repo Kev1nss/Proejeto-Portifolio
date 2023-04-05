@@ -1,0 +1,17 @@
+body{
+  font-family: "Fira Sans", Arial, sans-serif;/*fonte do site*/
+  margin:0px;/*tirou a margim*/
+  color:#141414; /*cor padrao do site*/
+}
+h1,h2,h3,p{
+margin: 0px;
+}
+ul{
+  margin: 0px;
+  padding:0px;
+  list-style: none; /*tirando as bolinha*/
+}
+img{
+  max-width: 100%;/*o maximo dela sem estourar*/
+  display: block;/*não crescer infinitamente*/
+}
