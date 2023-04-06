@@ -18,6 +18,12 @@
   color: #cccccc;
 }
 
+.log{
+  width: 42px; /* Define a largura da imagem como 200 pixels */
+  height: auto; /* Mantém a proporção original da imagem */
+ 
+}
+
 .footer-contato li{
   font-weight: bold;
   font-size: 2.25rem;
@@ -30,6 +36,9 @@
 .footer-contato li a{
   color: #ffffff;
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 
 }
 .footer-copy{
@@ -41,10 +50,12 @@
   color: #40b014e2;
 
 }
-.footer-contato:hover{
-  border-left: 4px solid #65ed2f98;
+a{
+  text-decoration: none;
+  color: #40b014e2;
 
 }
+
 
 @media (max-witdh: 800px){
   .footer-container{
