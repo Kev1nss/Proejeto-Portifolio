@@ -29,5 +29,6 @@
   }
   .introducao img{
     display: none;/*tirar a imagem*/
+    height: auto;
   }
 }
