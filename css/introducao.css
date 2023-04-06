@@ -1,0 +1,36 @@
+.introducao{
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;/*parte das colunas coloquei duas colunas*/
+  gap: 100px;
+  align-items: center;/*alinhado ao centro*/
+}
+  .introducao h1{
+    font-size:4.5rem;/*font*/
+    line-height: 1.125;/*tamanho da letra*/
+    margin-bottom: 30px;
+    position:relative;/*elemento em relação ao segundo topo*/
+
+
+  }
+  .introducao h1:before{
+    /*adicionando elemento atrás do texto*/
+    content:"";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url('../img/detalhe.svg') no-repeat center;/*adiconando detalhe alinhado ao centro que não repete*/
+    position: absolute;/*posição encima do texto*/
+    top: -15px;
+    left:-40px;
+    z-index:-1;/*jogando para tras do texto*/
+    
+  
+  }
+  .introducao p{
+    font-size:1.5rem;
+    color: #525252;
+  }
+  
