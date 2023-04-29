@@ -1,3 +1,23 @@
+:root {
+  --fundo-1:#f5f5f5;
+  --fundo-2: #fff;
+  --texto: #000000;
+  --subtitulo: #000000;
+
+}
+
+@media(prefers-color-scheme: dark){
+  :root {
+    --fundo-1:#111;
+    --fundo-2: #000;
+    --texto: #ffffff;
+    --subtitulo: rgb(255, 255, 255, 2);
+
+  
+  }
+}
+
+
 .experiencia .subtitulo{
   color: #e0e0e0;
 }
@@ -7,10 +27,10 @@
   line-height:1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: #525252
+  color: var(--texto);
 }
 .experiencia-texto strong{
-  color: #141414;
+  color: var(--texto);
 }
 
 .empresa{
@@ -18,7 +38,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;/*vertical horizontal*/
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: var(--fundo-1);
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
@@ -45,7 +65,7 @@
 }
 .botao:hover{
   background: #65ed2f98;
-  color: #fff;
+  color: #var(--fundo-1);
   padding: 15px 30px;
   border-radius: 4px;
   text-transform: uppercase;
@@ -93,7 +113,7 @@
   font-size: .875rem;
   line-height: 1.4;
   border-radius: 4px;
-  background: #ffff;
+  background: #var(--fundo-2);
   padding: 5px 10px;
 
 }

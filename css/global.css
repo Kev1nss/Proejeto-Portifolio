@@ -2,9 +2,16 @@ body{
   font-family: "Fira Sans", Arial, sans-serif;/*fonte do site*/
   margin:0px;/*tirou a margim*/
   color:#141414; /*cor padrao do site*/
+  color: var(--texto);
+  background: var(--fundo-1);
 }
 h1,h2,h3,p{
 margin: 0px;
+color: var(--texto);
+}
+a{
+  color: var(--texto);
+
 }
 ul{
   margin: 0px;

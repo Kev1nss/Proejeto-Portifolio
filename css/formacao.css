@@ -27,7 +27,7 @@
 
 
 .formacao .subtitulo{
-  color: #000000;
+  color: var(--subtitulo);
   max-width: 5ch;
 }
 .forma-texto{
